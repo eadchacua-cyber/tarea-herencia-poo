@@ -13,7 +13,6 @@ class SegundoSemestre(InstitutoYavirac):
     def matricular_estudiante(self):
         return f"yo ya estoy matriculado en el segundo semestre, paralelo {self.paralelo}."
 
-# Ejecución en consola
 mi_matricula = SegundoSemestre("Yavirac", "Desarrollo de Software", "vespertina", "c")
 print(mi_matricula.mostrar_info())
 print(mi_matricula.matricular_estudiante())
